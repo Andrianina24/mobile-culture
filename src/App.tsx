@@ -46,7 +46,7 @@ const App: React.FC = () => (
         <Route path="/PhotoTerrain" component={PhotoTerrain} />
         <Route path="/Parametre" component={Parametre} />
 
-        <Redirect exact from="/" to="/home" />
+        <Redirect exact from="/" to="/login" />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
