@@ -1,12 +1,7 @@
 import React from "react";
 import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
+  IonContent
 } from "@ionic/react";
-import ExploreContainer from "../../components/ExploreContainer";
 import "./Terrain.css";
 
 import { useHistory } from "react-router-dom";
@@ -14,6 +9,7 @@ import Bouton from "../../components/Bouton";
 
 const ListeTerrain: React.FC = () => {
   const history = useHistory();
+  const img="../../assets/img/culture.jpg";
 
   const ListeTerrain = () => {
     history.push("/ListeTerrain");
@@ -39,17 +35,17 @@ const ListeTerrain: React.FC = () => {
               <div id="img">
                 <img
                   className="petit1"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
                 <img
                   className="grand"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
                 <img
                   className="petit2"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
               </div>
@@ -64,17 +60,17 @@ const ListeTerrain: React.FC = () => {
               <div id="img">
                 <img
                   className="petit1"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
                 <img
                   className="grand"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
                 <img
                   className="petit2"
-                  src="src/assets/img/culture.jpg"
+                  src={img}
                   alt=""
                 />
               </div>

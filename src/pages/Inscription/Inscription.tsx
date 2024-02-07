@@ -1,17 +1,11 @@
 import React from "react";
 import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
+  IonContent
 } from "@ionic/react";
-import ExploreContainer from "../../components/ExploreContainer";
 import "./Inscription.css";
 
 import { useHistory } from "react-router-dom";
 import Bouton from "../../components/Bouton";
-import ListeTerrain from "../Terrain/ListeTerrain";
 
 const Inscription: React.FC = () => {
   const history = useHistory();

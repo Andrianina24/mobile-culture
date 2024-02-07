@@ -1,7 +1,0 @@
-{
-  "name": "culture",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}

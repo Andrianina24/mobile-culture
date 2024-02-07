@@ -1,10 +1,6 @@
 import React from "react";
 import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
+  IonContent
 } from "@ionic/react";
 import "./Photo.css";
 

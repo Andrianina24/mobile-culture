@@ -1,23 +1,10 @@
 import React from "react";
 import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
+  IonContent
 } from "@ionic/react";
 import "./Parametre.css";
 
-import { useHistory } from "react-router-dom";
-import Bouton from "../../components/Bouton";
-
 const Parametre: React.FC = () => {
-  const history = useHistory();
-
-  const navigateToSecondPage = () => {
-    history.push("/valider");
-  };
-
   return (
 <IonContent>
     <div id="p-all">
