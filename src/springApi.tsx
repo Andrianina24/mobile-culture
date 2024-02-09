@@ -1,7 +1,8 @@
 import axios, { AxiosResponse } from "axios";
 
 // Define the base URL of your API
-const BASE_URL = "http://localhost:8081";
+const BASE_URL = 'https://web-service-final-production-314a.up.railway.app';
+// const BASE_URL = "http://localhost:8081";
 
 interface UserData {
   token: string;
