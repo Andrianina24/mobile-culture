@@ -11,7 +11,7 @@ const CultureParcelle: React.FC = () => {
   const history = useHistory();
 
   const CultureParcelle = () => {
-    history.push("/CultureParcelle");
+    history.push("/ListeTerrain");
   };
 
   return(
